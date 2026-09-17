@@ -1,0 +1,224 @@
+{
+  "results": [
+    {
+      "label": "baseline",
+      "model": {
+        "model": "two_asset_lognormal_call_no_dividends",
+        "spot1": "100",
+        "spot2": "100",
+        "weight1": "1/2",
+        "weight2": "1/2",
+        "vol1": "1/5",
+        "vol2": "1/4",
+        "correlation": "3/5",
+        "rate": "3/100",
+        "maturity": "1",
+        "strike": "100"
+      },
+      "statistics": {
+        "seconds": 0.15568604199506808,
+        "leaves": 2040,
+        "block_evaluations": 4079,
+        "conditional_evaluations": 2041,
+        "midpoint_display": 9.474508520616398,
+        "error_bound_display": 0.009995524855151877,
+        "tail_upper_display": 3.221670789253042e-07,
+        "status": "tolerance_met",
+        "replay_seconds": 0.08064620799268596
+      },
+      "price_lower": "174589449015105799653/18446744073709551616",
+      "price_upper": "846046032209975738526410841797372022613853015/89202980794122492566142873090593446023921664",
+      "samples": [
+        {
+          "method": "r2",
+          "n": 1024,
+          "price_estimate": 9.570171041539826,
+          "seconds": 0.0008205420017475262,
+          "certified": false
+        },
+        {
+          "method": "r2",
+          "n": 4096,
+          "price_estimate": 9.47508861362334,
+          "seconds": 0.0031045420037116855,
+          "certified": false
+        },
+        {
+          "method": "r2",
+          "n": 16384,
+          "price_estimate": 9.47610369031254,
+          "seconds": 0.012692125004832633,
+          "certified": false
+        },
+        {
+          "method": "halton",
+          "n": 1024,
+          "price_estimate": 9.33843238740071,
+          "seconds": 0.0016913750005187467,
+          "certified": false
+        },
+        {
+          "method": "halton",
+          "n": 4096,
+          "price_estimate": 9.434789155702548,
+          "seconds": 0.007602042009239085,
+          "certified": false
+        },
+        {
+          "method": "halton",
+          "n": 16384,
+          "price_estimate": 9.46152389430738,
+          "seconds": 0.03444391601078678,
+          "certified": false
+        }
+      ]
+    },
+    {
+      "label": "vol1_minus_one_point",
+      "model": {
+        "model": "two_asset_lognormal_call_no_dividends",
+        "spot1": "100",
+        "spot2": "100",
+        "weight1": "1/2",
+        "weight2": "1/2",
+        "vol1": "19/100",
+        "vol2": "1/4",
+        "correlation": "3/5",
+        "rate": "3/100",
+        "maturity": "1",
+        "strike": "100"
+      },
+      "statistics": {
+        "seconds": 0.1515385420061648,
+        "leaves": 1993,
+        "block_evaluations": 3985,
+        "conditional_evaluations": 1994,
+        "midpoint_display": 9.305211342150098,
+        "error_bound_display": 0.009995606030805688,
+        "tail_upper_display": 3.1348714977626463e-07,
+        "status": "tolerance_met",
+        "replay_seconds": 0.07890170899918303
+      },
+      "price_lower": "171466465794110322435/18446744073709551616",
+      "price_upper": "6647553811934860374537119451590682317271961639/713623846352979940529142984724747568191373312",
+      "samples": [
+        {
+          "method": "r2",
+          "n": 1024,
+          "price_estimate": 9.397594137145845,
+          "seconds": 0.0008023749978747219,
+          "certified": false
+        },
+        {
+          "method": "r2",
+          "n": 4096,
+          "price_estimate": 9.304506799957919,
+          "seconds": 0.0030824169953120872,
+          "certified": false
+        },
+        {
+          "method": "r2",
+          "n": 16384,
+          "price_estimate": 9.306489490681969,
+          "seconds": 0.012836833993787877,
+          "certified": false
+        },
+        {
+          "method": "halton",
+          "n": 1024,
+          "price_estimate": 9.170004653346659,
+          "seconds": 0.0017126250022556633,
+          "certified": false
+        },
+        {
+          "method": "halton",
+          "n": 4096,
+          "price_estimate": 9.265426768204028,
+          "seconds": 0.007876124989707023,
+          "certified": false
+        },
+        {
+          "method": "halton",
+          "n": 16384,
+          "price_estimate": 9.2922012925227,
+          "seconds": 0.03437462500005495,
+          "certified": false
+        }
+      ]
+    },
+    {
+      "label": "vol1_plus_one_point",
+      "model": {
+        "model": "two_asset_lognormal_call_no_dividends",
+        "spot1": "100",
+        "spot2": "100",
+        "weight1": "1/2",
+        "weight2": "1/2",
+        "vol1": "21/100",
+        "vol2": "1/4",
+        "correlation": "3/5",
+        "rate": "3/100",
+        "maturity": "1",
+        "strike": "100"
+      },
+      "statistics": {
+        "seconds": 0.15798420799546875,
+        "leaves": 2089,
+        "block_evaluations": 4177,
+        "conditional_evaluations": 2090,
+        "midpoint_display": 9.644731752177908,
+        "error_bound_display": 0.00999914608021779,
+        "tail_upper_display": 3.314762009225081e-07,
+        "status": "tolerance_met",
+        "replay_seconds": 0.08335883398831356
+      },
+      "price_lower": "5554045206353398565/576460752303423488",
+      "price_upper": "1722461549779481224579664281316833020019028765/178405961588244985132285746181186892047843328",
+      "samples": [
+        {
+          "method": "r2",
+          "n": 1024,
+          "price_estimate": 9.743598397805117,
+          "seconds": 0.0008062080014497042,
+          "certified": false
+        },
+        {
+          "method": "r2",
+          "n": 4096,
+          "price_estimate": 9.646563957892276,
+          "seconds": 0.0033960830041905865,
+          "certified": false
+        },
+        {
+          "method": "r2",
+          "n": 16384,
+          "price_estimate": 9.64664516977049,
+          "seconds": 0.012325707997661084,
+          "certified": false
+        },
+        {
+          "method": "halton",
+          "n": 1024,
+          "price_estimate": 9.508223503916259,
+          "seconds": 0.0018299160001333803,
+          "certified": false
+        },
+        {
+          "method": "halton",
+          "n": 4096,
+          "price_estimate": 9.605000094083046,
+          "seconds": 0.007677250003325753,
+          "certified": false
+        },
+        {
+          "method": "halton",
+          "n": 16384,
+          "price_estimate": 9.631765416961876,
+          "seconds": 0.0346456660045078,
+          "certified": false
+        }
+      ]
+    }
+  ],
+  "scope": "Synthetic fixed models. Single-run local wall times, not a competitive benchmark. Scenario prices are not a confidence interval for market or model uncertainty."
+}

@@ -1,0 +1,6 @@
+{
+  "model":"two_asset_lognormal_call_no_dividends",
+  "spot1":"100", "spot2":"100", "weight1":"1/2", "weight2":"1/2",
+  "vol1":"1/5", "vol2":"1/4", "correlation":"3/5", "rate":"3/100",
+  "maturity":"1", "strike":"100"
+}

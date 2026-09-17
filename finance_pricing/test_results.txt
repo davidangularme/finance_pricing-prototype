@@ -1,0 +1,14 @@
+test_deterministic_case (__main__.Tests.test_deterministic_case) ... ok
+test_failures (__main__.Tests.test_failures) ... ok
+test_model_validation (__main__.Tests.test_model_validation) ... ok
+test_perfect_correlation_equal_vols (__main__.Tests.test_perfect_correlation_equal_vols) ... ok
+test_quote_check (__main__.Tests.test_quote_check) ... ok
+test_second_asset_only (__main__.Tests.test_second_asset_only) ... ok
+test_tail_and_monotonicity (__main__.Tests.test_tail_and_monotonicity) ... ok
+test_tampering (__main__.Tests.test_tampering) ... ok
+test_vanilla_closed_form (__main__.Tests.test_vanilla_closed_form) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.653s
+
+OK
